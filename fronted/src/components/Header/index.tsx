@@ -7,11 +7,11 @@ function Header() {
  return ( 
  <header>
         <div className="dsmeta-logo-container">
-            <img src={logo} alt="DSMeta" />
-            <h1>DSMeta</h1>
+            <img src={logo} alt="Venda" />
+            <h1>VENDAS ALERT</h1>
             <p>
-              Desenvolvido por
-              <a href="https://www.instagram.com/s_sgabriel/">@S_SGabriel</a>
+               Desenvolvido por 
+          <div  className='redeSocial'>   <a href="https://www.instagram.com/s_sgabriel/"> @S_SGabriel</a> </div>
             </p>
         </div>
     </header>

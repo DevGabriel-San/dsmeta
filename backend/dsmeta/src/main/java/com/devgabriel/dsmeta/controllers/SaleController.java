@@ -30,6 +30,6 @@ public class SaleController {
     @GetMapping("{id}/notification")
     public void notSms(@PathVariable Long id){
         smsService.sendSms(id);
-    }
+        System.out.println("Sms enviado...");    }
 
 }
